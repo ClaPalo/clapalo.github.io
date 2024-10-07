@@ -14,7 +14,7 @@ function About() {
     };
     return (
         <div
-            className="h-5/6 w-full flex flex-col md:flex-row md:justify-around md:items-center"
+            className="w-full flex flex-col md:flex-row md:justify-around md:items-center my-44"
             id="about"
         >
             <div className="flex flex-col justify-center items-center md:items-start md:justify-start md:ml-20">
@@ -22,18 +22,29 @@ function About() {
                     Who am I?
                 </h1>
                 <p className="w-5/6 md:w-1/2 text-center md:text-start">
-                    Ea et ea non id est esse voluptate ad nisi minim dolor.
-                    Dolor eiusmod nulla anim veniam mollit consectetur aliquip
-                    enim incididunt et nostrud incididunt irure anim velit.
+                    I'm a Computer Science and Engineering student at
+                    Politecnico di Milano and University of Illinois at Chicago.
+                    I'm passionate about Fullstack Development and Security, and
+                    I'm always looking for new things to learn and how I can
+                    challenge myself.
                     <br />
                     <br />
-                    Exercitation in exercitation dolor sit aliqua eu ipsum esse
-                    aute voluptate. Non nostrud in ea enim amet fugiat eu
-                    deserunt eu amet incididunt.
+                    My current research focuses on Electron application's
+                    security, focusing on the implementation of security
+                    mechanisms related to HTTP headers. My advisors are Jason
+                    Polakis and Stefano Zanero.
                     <br />
-                    <br /> Sunt commodo sint Lorem eiusmod Lorem ex esse
-                    proident anim id nulla laborum excepteur cupidatat. Anim
-                    nostrud labore duis tempor irure adipisicing amet.
+                    <br />
+                    I'm co-founder and lead Software Engineer at Freeroom, a
+                    project born at Politecnico di Milano and aimed at gathering
+                    and serving data about classroom occupation to students and
+                    universities staff. We raised €35.000 in fundings and we
+                    ranked 1st at the Enhance challenge.
+                    <br />
+                    <br />
+                    I'm not only interested in tech! I'm a big fan of Minecraft,
+                    I love everything related to Doctor Who and my dream is to
+                    visit every country in the world.
                 </p>
                 <p className="font-semibold text-ternary text-xl mt-5 text-center md:text-start">
                     My tech stack:
