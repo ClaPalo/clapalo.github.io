@@ -49,7 +49,7 @@ function Home() {
                             <Tooltip>
                                 <TooltipTrigger asChild>
                                     <a
-                                        href="/Resume_Paloscia_September_2024.pdf"
+                                        href="/Paloscia_Resume_October.pdf"
                                         target="_blank"
                                     >
                                         <PiReadCvLogoFill
