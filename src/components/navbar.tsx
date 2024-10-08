@@ -37,7 +37,7 @@ function Navbar() {
                                 variant={"secondary"}
                                 className="bg-transparent"
                             >
-                                Project
+                                Projects
                             </Button>
                         </NavHashLink>
                     </div>
