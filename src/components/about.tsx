@@ -35,7 +35,7 @@ function About() {
                     Polakis and Stefano Zanero.
                     <br />
                     <br />
-                    I'm co-founder and lead Software Engineer at Freeroom, a
+                    I'm co-founder and Software Engineer at Freeroom, a
                     project born at Politecnico di Milano and aimed at gathering
                     and serving data about classroom occupation to students and
                     universities staff. We raised €35.000 in fundings and we
@@ -43,8 +43,7 @@ function About() {
                     <br />
                     <br />
                     I'm not only interested in tech! I'm a big fan of Minecraft,
-                    I love everything related to Doctor Who and my dream is to
-                    visit every country in the world.
+                    I love everything related to Doctor Who and I like to draw.
                 </p>
                 <p className="font-semibold text-ternary text-xl mt-5 text-center md:text-start">
                     My tech stack:
