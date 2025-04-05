@@ -23,7 +23,7 @@ function Home() {
                         <h1 className="font-bold">Paloscia</h1>
                     </div>
                     <h2 className="text-ternary text-xl lg:text-2xl font-semibold">
-                        Computer Science and Engineering student
+                        Software Engineering Specialist @ xAI
                     </h2>
                     <h3>
                         University of Illinois <strong>Chicago</strong> and
