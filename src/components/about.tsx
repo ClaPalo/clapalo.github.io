@@ -22,20 +22,21 @@ function About() {
                     Who am I?
                 </h1>
                 <p className="w-5/6 md:w-1/2 text-center md:text-start">
-                    I'm a Computer Science and Engineering student at
-                    Politecnico di Milano and University of Illinois at Chicago.
+                    I'm a Software Engineering Specialist at xAI.
                     I'm passionate about Fullstack Development and Security, and
                     I'm always looking for new things to learn and how I can
                     challenge myself.
                     <br />
                     <br />
-                    My current research focuses on Electron application's
+                    I recently graduated in Computer Science and Engineering at
+                    Politecnico di Milano and University of Illinois at Chicago.
+                    My latest research focused on Electron application's
                     security, focusing on the implementation of security
-                    mechanisms related to HTTP headers. My advisors are Jason
+                    mechanisms related to HTTP headers. My advisors were Jason
                     Polakis and Stefano Zanero.
                     <br />
                     <br />
-                    I'm co-founder and Software Engineer at Freeroom, a
+                    I'm Co-Founder and Software Engineer at Freeroom, a
                     project born at Politecnico di Milano and aimed at gathering
                     and serving data about classroom occupation to students and
                     universities staff. We raised €35.000 in fundings and we
