@@ -19,20 +19,7 @@ function Projects() {
                 >
                     <div className="card-content text-white flex flex-row justify-around">
                         <div>
-                            <a
-                                href="https://freeroom.digital"
-                                target="_blank"
-                                className="cursor-pointer"
-                            >
                                 <div className="inline-block relative">
-                                    <div className="block">
-                                        <img
-                                            src="/click.gif"
-                                            alt="click"
-                                            width={70}
-                                            className="absolute top-0 -right-12"
-                                        />
-                                    </div>
                                     <img
                                         src="/freeroom.png"
                                         alt="freeroom"
