@@ -26,7 +26,6 @@ function Projects() {
                                         width={200}
                                     />
                                 </div>
-                            </a>
                             <p className="my-3 w-1/2 z-30">
                                 Group project born at Politecnico di Milano, the
                                 aim is to provide students and staff insights
