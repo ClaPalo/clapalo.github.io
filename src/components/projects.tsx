@@ -19,13 +19,13 @@ function Projects() {
                 >
                     <div className="card-content text-white flex flex-row justify-around">
                         <div>
-                                <div className="inline-block relative">
-                                    <img
-                                        src="/freeroom.png"
-                                        alt="freeroom"
-                                        width={200}
-                                    />
-                                </div>
+                            <div className="inline-block relative">
+                                <img
+                                    src="/freeroom.png"
+                                    alt="freeroom"
+                                    width={200}
+                                />
+                            </div>
                             <p className="my-3 w-1/2 z-30">
                                 Group project born at Politecnico di Milano, the
                                 aim is to provide students and staff insights
@@ -56,9 +56,16 @@ function Projects() {
                                 Inventory Management
                             </h1>
                             <p className="my-3 w-2/3 z-30">
-                                Demo of an inventory management Web Application fully deployed on AWS.
-                                Created using <strong>NextJS</strong>, <strong>ExpressJS</strong>, <strong>PostgreSQL</strong> and <strong>Prisma</strong>.<br />
-                                Deployed with <strong>Amplify</strong>, <strong>EC2</strong>, <strong>RDS</strong>, <strong>S3</strong> and <strong>API Gateway</strong>.
+                                Demo of an inventory management Web Application
+                                fully deployed on AWS. Created using{" "}
+                                <strong>NextJS</strong>,{" "}
+                                <strong>ExpressJS</strong>,{" "}
+                                <strong>PostgreSQL</strong> and{" "}
+                                <strong>Prisma</strong>.<br />
+                                Deployed with <strong>Amplify</strong>,{" "}
+                                <strong>EC2</strong>, <strong>RDS</strong>,{" "}
+                                <strong>S3</strong> and{" "}
+                                <strong>API Gateway</strong>.
                             </p>
                             <div className="flex flex-row gap-3">
                                 <a
@@ -112,27 +119,14 @@ function Projects() {
                 <div className="col-span-1 card card-violet rounded-2xl h-full card-violet p-5 items-center">
                     <div className="card-content text-white flex flex-row justify-around">
                         <div className="flex flex-col justify-center items-center">
-                            <a
-                                href="https://freeroom.digital"
-                                target="_blank"
-                                className="cursor-pointer"
-                            >
-                                <div className="inline-block relative">
-                                    <div className="block">
-                                        <img
-                                            src="/click.gif"
-                                            alt="click"
-                                            width={50}
-                                            className="absolute top-0 -right-8"
-                                        />
-                                    </div>
-                                    <img
-                                        src="/freeroom.png"
-                                        alt="freeroom"
-                                        width={150}
-                                    />
-                                </div>
-                            </a>
+                            <div className="inline-block relative">
+                                <div className="block"></div>
+                                <img
+                                    src="/freeroom.png"
+                                    alt="freeroom"
+                                    width={150}
+                                />
+                            </div>
                             <p className="my-3 w-full z-30 text-center text-sm">
                                 Group project born at Politecnico di Milano, the
                                 aim is to provide students and staff insights
@@ -154,9 +148,16 @@ function Projects() {
                                 Inventory Management
                             </h1>
                             <p className="my-3 w-2/3 z-30 text-center text-sm">
-                                Demo of an inventory management Web Application fully deployed on AWS.
-                                Created using <strong>NextJS</strong>, <strong>ExpressJS</strong>, <strong>PostgreSQL</strong> and <strong>Prisma</strong>.<br />
-                                Deployed with <strong>Amplify</strong>, <strong>EC2</strong>, <strong>RDS</strong>, <strong>S3</strong> and <strong>API Gateway</strong>.
+                                Demo of an inventory management Web Application
+                                fully deployed on AWS. Created using{" "}
+                                <strong>NextJS</strong>,{" "}
+                                <strong>ExpressJS</strong>,{" "}
+                                <strong>PostgreSQL</strong> and{" "}
+                                <strong>Prisma</strong>.<br />
+                                Deployed with <strong>Amplify</strong>,{" "}
+                                <strong>EC2</strong>, <strong>RDS</strong>,{" "}
+                                <strong>S3</strong> and{" "}
+                                <strong>API Gateway</strong>.
                             </p>
                             <div className="flex flex-row gap-3">
                                 <a
