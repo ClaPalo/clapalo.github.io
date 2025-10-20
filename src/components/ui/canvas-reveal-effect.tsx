@@ -27,7 +27,7 @@ export const CanvasRevealEffect = ({
         <div
             className={cn(
                 "h-full relative bg-white w-full",
-                containerClassName
+                containerClassName,
             )}
         >
             <div className="h-full w-full">
@@ -243,7 +243,7 @@ const ShaderMaterial = ({
                 case "uniform3fv":
                     preparedUniforms[uniformName] = {
                         value: uniform.value.map((v: number[]) =>
-                            new THREE.Vector3().fromArray(v)
+                            new THREE.Vector3().fromArray(v),
                         ),
                         type: "3fv",
                     };

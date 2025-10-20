@@ -5,16 +5,13 @@ import { BrowserRouter } from "react-router-dom";
 
 function Navbar() {
     return (
-        <div className="fixed top-0 w-[100%] z-[100] max-w-full">
+        <div className="fixed top-0 w-[100%] z-[100] max-w-full h-12">
             <BrowserRouter>
-                <div className="p-2 grid grid-cols-3 py-4 px-4 bg-inherit backdrop-blur-md">
+                <div className="grid grid-cols-3 px-4 bg-inherit backdrop-blur-md h-12">
                     <div className="flex items-center">
-                        {/* <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-                        Claudio Paloscia
-                    </h1> */}
                     </div>
                     <div className="flex justify-center items-center">
-                        <NavHashLink smooth to="#home">
+                        <NavHashLink smooth to="#home" scroll={el => el.scrollIntoView({block: "center", behavior: "smooth"})}>
                             <Button
                                 variant={"secondary"}
                                 className="bg-transparent"
@@ -23,7 +20,7 @@ function Navbar() {
                             </Button>
                         </NavHashLink>
                         <Separator orientation="vertical" className="h-3/4" />
-                        <NavHashLink smooth to="#about">
+                        <NavHashLink smooth to="#about" scroll={el => el.scrollIntoView({block: "center", behavior: "smooth"})}>
                             <Button
                                 variant={"secondary"}
                                 className="bg-transparent"
@@ -32,7 +29,7 @@ function Navbar() {
                             </Button>
                         </NavHashLink>
                         <Separator orientation="vertical" className="h-3/4" />
-                        <NavHashLink smooth to="#projects">
+                        <NavHashLink smooth to="#projects" scroll={el => el.scrollIntoView({block: "center", behavior: "smooth"})}>
                             <Button
                                 variant={"secondary"}
                                 className="bg-transparent"

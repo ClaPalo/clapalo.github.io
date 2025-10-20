@@ -23,33 +23,54 @@ function Home() {
                         <h1 className="font-bold">Paloscia</h1>
                     </div>
                     <h2 className="text-ternary text-xl lg:text-2xl font-semibold">
-                        Software Engineering Specialist @ xAI
+                        Software Engineer Specialist @ xAI
                     </h2>
                     <h3>
                         University of Illinois <strong>Chicago</strong> and
                         Politecnico di <strong>Milano</strong>
                     </h3>
                     <div className="flex flex-row gap-4 mt-5">
-                        <a href="https://github.com/ClaPalo" target="_blank">
-                            <FaGithub
-                                size={30}
-                                className="hover:-translate-y-1 hover:scale-110 transition-all ease-in-out"
-                            />
-                        </a>
-                        <a
-                            href="https://www.linkedin.com/in/claudio-paloscia"
-                            target="_blank"
-                        >
-                            <FaLinkedin
-                                size={30}
-                                className="hover:-translate-y-1 hover:scale-110 transition-all ease-in-out"
-                            />
-                        </a>
                         <TooltipProvider>
                             <Tooltip>
                                 <TooltipTrigger asChild>
                                     <a
-                                        href="/Paloscia_Resume_December.pdf"
+                                        href="https://github.com/ClaPalo"
+                                        target="_blank"
+                                    >
+                                        <FaGithub
+                                            size={30}
+                                            className="hover:-translate-y-1 hover:scale-110 transition-all ease-in-out"
+                                        />
+                                    </a>
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                    <p>Github</p>
+                                </TooltipContent>
+                            </Tooltip>
+                        </TooltipProvider>
+                        <TooltipProvider>
+                            <Tooltip>
+                                <TooltipTrigger asChild>
+                                    <a
+                                        href="https://www.linkedin.com/in/claudio-paloscia"
+                                        target="_blank"
+                                    >
+                                        <FaLinkedin
+                                            size={30}
+                                            className="hover:-translate-y-1 hover:scale-110 transition-all ease-in-out"
+                                        />
+                                    </a>
+                                </TooltipTrigger>
+                                <TooltipContent>
+                                    <p>LinkedIn</p>
+                                </TooltipContent>
+                            </Tooltip>
+                        </TooltipProvider>
+                        <TooltipProvider>
+                            <Tooltip>
+                                <TooltipTrigger asChild>
+                                    <a
+                                        href="/Paloscia_Resume_October.pdf"
                                         target="_blank"
                                     >
                                         <PiReadCvLogoFill
