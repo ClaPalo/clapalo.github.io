@@ -9,21 +9,20 @@ function About() {
                     Who am I?
                 </h1>
                 <p className="w-5/6 md:w-1/2 text-center md:text-start">
-                    I'm a Software Engineer Specialist at xAI. I'm passionate
+                    I'm an Associate Strategic Project Lead at micro1. I'm passionate
                     about Fullstack Development and Security, and I'm always
                     looking for new things to learn and how I can challenge
                     myself.
                     <br />
                     <br />
-                    I recently graduated in Computer Science and Engineering at
-                    Politecnico di Milano and University of Illinois at Chicago.
-                    My latest research focused on Electron application's
-                    security, focusing on the implementation of security
-                    mechanisms related to HTTP headers. My advisors were Jason
-                    Polakis and Stefano Zanero.
+                    At micro1 I create and manage coding pipelines that count hundread of
+                    experts to generate thousands of RL environments to train frontier
+                    models. I define task formats, requirements, quality standards and verification.
+                    I review candidates, ensure experts are aligned, define workflows, and create tools
+                    to improve efficiency and costs.
                     <br />
                     <br />
-                    At xAI I developed and reviewed a high-quality dataset of
+                    I also worked at xAI, where I developed and reviewed a high-quality dataset of
                     complex coding tasks, while evaluating, providing feedback,
                     and refining team contributions to uphold rigorous
                     standards. Additionally, I created interactive scripts that
