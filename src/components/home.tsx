@@ -70,7 +70,7 @@ function Home() {
                             <Tooltip>
                                 <TooltipTrigger asChild>
                                     <a
-                                        href="/Paloscia_Resume_October.pdf"
+                                        href="/resume.pdf"
                                         target="_blank"
                                     >
                                         <PiReadCvLogoFill
@@ -117,7 +117,7 @@ function Home() {
                         <h1 className="font-bold">Paloscia</h1>
                     </div>
                     <h2 className="text-ternary text-sm font-semibold">
-                        Computer Science and Engineering student
+                        Associate Strategic Project Lead @ micro1
                     </h2>
                     <h3 className="text-xs">
                         University of Illinois <strong>Chicago</strong> and
@@ -143,7 +143,7 @@ function Home() {
                             <Tooltip>
                                 <TooltipTrigger asChild>
                                     <a
-                                        href="/Resume_Paloscia_September_2024.pdf"
+                                        href="/resume.pdf"
                                         target="_blank"
                                     >
                                         <PiReadCvLogoFill
